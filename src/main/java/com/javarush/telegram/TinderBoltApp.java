@@ -12,7 +12,7 @@ public class TinderBoltApp extends MultiSessionTelegramBot {
     public static String TELEGRAM_BOT_TOKEN; //TODO: добавь токен бота в кавычках
     public static String OPEN_AI_TOKEN; //TODO: добавь токен ChatGPT в кавычках
 
-    private ChatGPTService chatGPT;
+    private final ChatGPTService chatGPT;
 
     private DialogMode currentMode = null;
 
