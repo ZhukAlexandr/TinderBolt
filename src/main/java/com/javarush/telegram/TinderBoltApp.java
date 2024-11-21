@@ -232,6 +232,6 @@ public class TinderBoltApp extends MultiSessionTelegramBot {
     public static void main(String[] args) throws TelegramApiException {
 
         TelegramBotsApi telegramBotsApi = new TelegramBotsApi(DefaultBotSession.class);
-        telegramBotsApi.registerBot(new TinderBoltApp(TELEGRAM_BOT_TOKEN, OPEN_AI_TOKEN));
+        telegramBotsApi.registerBot(new TinderBoltApp());
     }
 }
