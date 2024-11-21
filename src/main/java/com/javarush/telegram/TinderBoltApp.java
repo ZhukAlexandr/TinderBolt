@@ -8,9 +8,9 @@ import org.telegram.telegrambots.updatesreceivers.DefaultBotSession;
 import java.util.ArrayList;
 
 public class TinderBoltApp extends MultiSessionTelegramBot {
-    public static final String TELEGRAM_BOT_NAME = "firstJavaBotTelegramAITinder_bot"; //TODO: добавь имя бота в кавычках
-    public static String TELEGRAM_BOT_TOKEN; //TODO: добавь токен бота в кавычках
-    public static String OPEN_AI_TOKEN; //TODO: добавь токен ChatGPT в кавычках
+    public static final String TELEGRAM_BOT_NAME = "firstJavaBotTelegramAITinder_bot"; // добавь имя бота в кавычках
+    public static String TELEGRAM_BOT_TOKEN; // добавь токен бота в кавычках
+    public static String OPEN_AI_TOKEN; // добавь токен ChatGPT в кавычках
 
     private final ChatGPTService chatGPT;
 
